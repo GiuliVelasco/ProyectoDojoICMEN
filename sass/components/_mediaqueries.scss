@@ -1,0 +1,13 @@
+//index
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    body{
+        .container-fluid{
+            .row{
+                h1{
+                    font-size: 25px;
+                    color: #EEEBDD;
+                }
+            }
+        } 
+    }
+}
