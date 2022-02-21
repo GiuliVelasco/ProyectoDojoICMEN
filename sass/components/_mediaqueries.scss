@@ -5,9 +5,16 @@
             .row{
                 h1{
                     font-size: 25px;
-                    color: #EEEBDD;
                 }
             }
         } 
+    }
+    header{
+        .fondoheader{
+            .container-fluid{
+                display: flex;
+                align-self: end;
+            }
+        }
     }
 }
