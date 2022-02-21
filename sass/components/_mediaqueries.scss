@@ -1,5 +1,6 @@
 //index
 @media screen and (min-width: 320px) and (max-width: 576px) {
+    //mediaqueries de los h1
     body{
         .container-fluid{
             .row{
@@ -9,11 +10,65 @@
             }
         } 
     }
+    //mediaqueries de la posición del logo
     header{
         .fondoheader{
             .container-fluid{
                 display: flex;
                 align-self: end;
+            }
+        }
+    }
+    //mediaqueries de html quienes somos
+    .fondoMain{
+        .container-fluid{
+            section{
+                .qs-contenedor{
+                    margin: 0.5rem;
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .main-qs__img{
+                        width:30%;
+                        margin: 25px;
+                    }
+                    .main-qs_texto{
+                        .main-qs_nombre{
+                            font-size: 18px;
+                        }
+                        .main-qs__parrafo{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //mediaqueries de html cursos
+    main{
+        .container-fluid{
+            section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .carousel{
+                    width: 95%;
+                }
+                form{
+                    width: 95%;
+                    margin: 10px;
+                }
+            }
+            div{
+                .section-div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .cuadro{
+                        width: 90%;
+                    }
+                }
             }
         }
     }
