@@ -5,7 +5,7 @@
         .container-fluid{
             .row{
                 h1{
-                    font-size: 25px;
+                    font-size: ($tamaño_letra)-10;
                 }
             }
         } 
@@ -35,10 +35,10 @@
                     }
                     .main-qs_texto{
                         .main-qs_nombre{
-                            font-size: 18px;
+                            font-size: ($tamaño_letra)-17;
                         }
                         .main-qs__parrafo{
-                            font-size: 16px;
+                            font-size: ($tamaño_letra)-19;
                         }
                     }
                 }
