@@ -6,6 +6,7 @@
         section{
             .card{
                 @include tarjeta;
+                width: 18rem;
                 .card-body{
                     .card-title{
                         font-family: 'Roboto', sans-serif;
