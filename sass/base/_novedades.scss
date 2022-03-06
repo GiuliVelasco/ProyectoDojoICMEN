@@ -11,10 +11,11 @@ section{
         @include cuadro;
         padding-top: 10px;
         margin-bottom: 1rem;
-        h3{
-            @include h3;
+        h2{
+            @include h2;
         }
         div{
+            margin-top: 15px;
             .subtitulo{
                 font-size: ($tamaño_letra)-15;
                 text-decoration: overline;

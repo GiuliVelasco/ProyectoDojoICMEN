@@ -26,7 +26,7 @@
         <seccion class="navbar fondoheader">
             <div class="container-fluid d-flex align-self-sm-start align-self-md-start justify-content-end">
                 <a class="colortitulo" href="../index.html">
-                    <img class="logo agrandar" src="../img/logo.jpeg" alt="Logo del Dojo"
+                    <img class="logo agrandar" src="../img/logo1.png" alt="Logo del Dojo"
                         class="d-inline-block align-text-top">
                 </a>
             </div>
@@ -127,45 +127,50 @@
                     <!-- formulario -->
                     <form class="col-9">
                         <fieldset>
-                            <legend> CONTACTANOS </legend>
+                            <legend> Completa tus datos para enviarte más información</legend>
                             <div>
                                 <label for="nombre"> Nombre y apellido </label>
                                 <input type="text" name="nombre" placeholder="Coloca tu nombre y apellido">
                             </div>
-                            <br>
+                            
                             <div>
                                 <label for="email">Correo de contacto</label>
                                 <input type="email" required placeholder="Coloca tu correo electrónico">
                             </div>
-                            <br>
+                            
                             <div>
                                 <label for="curso">Curso</label>
                                 <select name="curso">
                                     <option value="">Selecciona el curso que te interesa</option>
                                     <option value="judo">Judo</option>
-                                    <option value="judo de competicion">Judo de competición</option>
                                     <option value="defensa personal">Defensa personal</option>
                                 </select>
                             </div>
-                            <br>
+                            
                             <div>
-                                <label for="sexo">Género</label> <br>
-                                <input class="op1" type="radio" name="sexo" value="hombre">
-                                <p> Hombre </p>
-                                <input class="op1" type="radio" name="sexo" value="mujer"> 
-                                <p> Mujer </p>
+                                <div>
+                                    <label for="sexo">Género</label> <br>
+                                    <input class="op1" type="radio" name="sexo" value="hombre">
+                                    <p> Hombre </p>
+                                    <input class="op1" type="radio" name="sexo" value="mujer"> 
+                                    <p> Mujer </p>
+                                </div>
                             </div>
-                            <br>
+                            
                             <div>
-                                <label for="Edad">Edad</label> <br>
-                                <input class="op1" type="radio" name="edad" value="5 a 12">  
-                                <p>Entre 5 y 12 años</p><br>
-                                <input class="op1" type="radio" name="edad" value="13 a 18">
-                                <p>Entre 13 y 18 años</p> <br>
-                                <input class="op1" type="radio" name="edad" value="18 o más años">  
-                                <p>18 o más años</p> <br>
+                                <div class="rango-edad">
+                                    <label for="Edad">Edad</label>
+                                    <div>
+                                        <input class="op1" type="radio" name="edad" value="13 a 18">
+                                        <p>Entre 13 y 18 años</p>
+                                    </div>
+                                    <div>
+                                        <input class="op1" type="radio" name="edad" value="18 o más años">  
+                                        <p>18 o más años</p>
+                                    </div>
+                                </div>
                             </div>
-                            <br>
+                            
                             <div>
                                 <input class="boton-form" type="submit" value="Enviar">
                                 <input class="boton-form" type="reset" value="Resetear">
@@ -175,15 +180,15 @@
                 </section>
                 <div class="section-div row">
                     <div class="col-md-6 text-center d-flex align-self-center cuadro">
-                        <p>JUDO DE COMPETICIÓN <br><br><br>
-                            La competencia es una etapa importante en el desarrollo de los practicantes del judo, los expone
+                        <h2>Judo de competición</h2>
+                        <p> La competencia es una etapa importante en el desarrollo de los practicantes del judo, los expone
                             a enfrentar sus miedos y debilidades. La superación se logra mediante el empleo de sus propios
                             recursos y animándose a transitar un largo camino.
                         </p>
                     </div>
                     <div class="col-md-6 text-center d-flex align-self-center cuadro">
-                        <p>DEFENSA PERSONAL<br><br><br>
-                            El Judo es un arte marcial que implica el uso de varias posiciones, agarres y bloqueos, es una
+                        <h2>Defensa personal</h2>
+                        <p> El Judo es un arte marcial que implica el uso de varias posiciones, agarres y bloqueos, es una
                             manera de aprender técnicas de defensa personal, a la vez que se obtiene un gran entrenamiento
                             físico y se consigue bajar niveles de tensión diarios.
                         </p>
@@ -197,7 +202,7 @@
         <div class="container-fluid">
             <div class="row m-0">
                 <div class="col-6 text-right textoFooter">
-                <p> Encontranos en Calle Los Pescadores 918 - Las Heras - Mendoza <br> Teléfono: (261)xxxxxxx </p>
+                <p> Encontranos en Calle Los Pescadores 918 - Las Heras - Mendoza <br> E-mail: leotn86@gmail.com </p>
                 </div>
                 <!-- Section: Social media -->
                 <section class="mb-4 text-end col-6">
