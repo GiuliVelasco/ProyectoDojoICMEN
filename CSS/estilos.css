@@ -60,19 +60,49 @@ header .fondoheader {
   .fondofooter .container-fluid div .copyright {
     color: #EEEBDD; }
 
-.container-fluid .row h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 35px;
-  text-shadow: 2px 2px 5px black;
-  text-transform: uppercase;
-  color: #EEEBDD; }
-
-.container-fluid .row .parrafo {
-  font-size: 18px;
-  color: #EEEBDD; }
-
-.container-fluid .row .videoIndex {
-  margin-bottom: 2rem; }
+.mainIndex {
+  background: linear-gradient(180deg, #810000 0%, #ce1212 70%);
+  display: grid;
+  grid-template-areas: "titulo titulo titulo" "parrafo parrafo imagen" "videos videos videos";
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: 0.3fr 1fr 0.5fr; }
+  .mainIndex .titulo {
+    grid-area: titulo; }
+    .mainIndex .titulo h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 35px;
+      text-shadow: 2px 2px 5px black;
+      text-transform: uppercase;
+      color: #EEEBDD;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 40px; }
+  .mainIndex .bloque1-descripcion {
+    grid-area: parrafo;
+    font-size: 20px;
+    color: #EEEBDD;
+    text-align: center;
+    margin: 6rem 0 0 5rem; }
+  .mainIndex .bloque1-imagen {
+    grid-area: imagen; }
+    .mainIndex .bloque1-imagen img {
+      width: 80%;
+      height: auto;
+      padding-left: 20%;
+      margin-bottom: 20px; }
+  .mainIndex .videos {
+    grid-area: videos;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #EEEBDD; }
+  .mainIndex .bloque2-video {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    align-items: center; }
+    .mainIndex .bloque2-video iframe {
+      width: 100%;
+      height: auto; }
 
 main .container-fluid .row h1 {
   font-family: 'Roboto', sans-serif;
@@ -173,6 +203,8 @@ main .container-fluid div .section-div {
       font-size: 30px;
       text-transform: uppercase;
       color: #ce1212; }
+    main .container-fluid div .section-div .cuadro p {
+      padding: 20px; }
 
 section div h1 {
   font-family: 'Roboto', sans-serif;
@@ -275,6 +307,22 @@ header .fondoheader .container-fluid a .logo {
   header .fondoheader .container-fluid {
     display: flex;
     align-self: end; }
+  .mainIndex {
+    display: flex;
+    flex-direction: column; }
+    .mainIndex .bloque1-descripcion {
+      font-size: 17px;
+      color: #EEEBDD;
+      text-align: center;
+      margin: 2rem 1rem 2rem 1rem; }
+    .mainIndex .videos {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .mainIndex .videos .bloque2-video {
+        margin-top: 15px; }
+        .mainIndex .videos .bloque2-video iframe {
+          width: 100%; }
   .fondoMain .container-fluid section .qs-contenedor {
     margin: 0.5rem;
     width: 80%;

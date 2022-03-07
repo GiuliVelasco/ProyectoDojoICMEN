@@ -119,6 +119,9 @@ main{
                     h2{
                         @include h2;
                     }
+                    p{
+                        padding: 20px;
+                    }
                 }
             }
         }
