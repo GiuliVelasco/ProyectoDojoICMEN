@@ -25,15 +25,16 @@
         font-size: map-get($parrafo-estandar, size-estandar);
         color: map-get($parrafo-estandar, color-estandar);
         text-align: center;
-        margin: 6rem 0 0 5rem;
+        margin: 6rem 4rem 0 5rem;
     }
     .bloque1-imagen{
         grid-area: imagen;
         img{
             width: 80%;
             height: auto;
-            padding-left: 20%;
             margin-bottom: 20px;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+            border-radius: 2px;
         }
     }
     .videos{
@@ -44,9 +45,11 @@
         background-color: $color-ppal;
     }
     .bloque2-video{
-        margin-top: 30px;
-        margin-bottom: 15px;
+        width: 30%;
+        height: auto;
+        margin-top: 50px;
         align-items: center;
+        border: 1px solid black;
         iframe{
             width: 100%;
             height: auto;

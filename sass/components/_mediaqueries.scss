@@ -40,6 +40,9 @@
             text-align: center;
             margin: 2rem 1rem 2rem 1rem;
         }
+        .bloque1-imagen{
+            display: none !important;
+        }
         .videos{
             display: flex;
             flex-direction: column;
@@ -197,7 +200,34 @@
                 }
             }
         } 
-    }   
+    }
+
+    //mediaqueries del index
+    .mainIndex{
+        display: flex;
+        flex-direction: column;
+        .bloque1-descripcion{
+            font-size: 19px;
+            color: map-get($parrafo-estandar, color-estandar);
+            text-align: center;
+            margin: 3rem 4rem 4rem 4rem;
+        }
+        .bloque1-imagen{
+            display: none !important;
+        }
+        .videos{
+            display: flex;
+            flex-direction: row;
+            .bloque2-video{
+                margin-top: 15px;
+                padding: 0 2px 0 2px;
+                iframe{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
     //mediaqueries de html quienes somos
     .fondoMain{
         .container-fluid{

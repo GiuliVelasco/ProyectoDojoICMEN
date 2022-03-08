@@ -62,8 +62,8 @@ header{
 
             .hoja-activa{
                 background-color: $color-ppal;
-                color: $color-terciario;
-                font-weight: bolder;
+                color: $color-footer;
+                /*font-weight: bolder;*/
                 font-family: 'Roboto', sans-serif;
                 font-size: 1rem;
                 text-transform: uppercase;
@@ -93,6 +93,7 @@ header{
             div{
                 .copyright{
                     color: $color-ppal;
+                    font-style: oblique;
                 }
             }
         }
