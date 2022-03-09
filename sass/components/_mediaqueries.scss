@@ -48,10 +48,7 @@
             flex-direction: column;
             align-items: center;
             .bloque2-video{
-                margin-top: 15px;
-                iframe{
-                    width: 100%;
-                }
+                width: 90%;
             }
         }
     }
@@ -216,15 +213,29 @@
             display: none !important;
         }
         .videos{
+            grid-area: videos;
             display: flex;
             flex-direction: row;
-            .bloque2-video{
-                margin-top: 15px;
-                padding: 0 2px 0 2px;
+            justify-content: space-around;
+            background-color: $color-ppal;
+        }
+        .bloque2-video{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 30%;
+            .contenedor{
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-top: 56.25%;
                 iframe{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
                     width: 100%;
+                    height: 100%;
                 }
-            }
+            }   
         }
     }
     
